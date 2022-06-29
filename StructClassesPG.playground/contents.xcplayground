@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='rendered' buildActiveScheme='true' importAppTypes='true'>
+<playground version='6.0' target-platform='macos' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='introdution'/>
         <page name='lesson_one'/>
+        <page name='lesson_two'/>
+        <page name='lesson_three'/>
+        <page name='lesson_four'/>
     </pages>
 </playground>

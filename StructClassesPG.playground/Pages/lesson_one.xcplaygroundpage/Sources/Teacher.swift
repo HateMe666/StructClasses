@@ -12,8 +12,13 @@ public class Teacher {
     }
     
     public func studentCheck() {
+        // Переменная *i* не информативна - непонятно, что она делает, назови ее так, чтобы было понятно, что она делает
         for i in studentArray {
+            
+            // Переменная *flag* не информативна - непонятно, что она делает, назови ее так, чтобы было понятно, что она делает
             var flag = false
+            
+            // Переменная *j* не информативна - непонятно, что она делает, назови ее так, чтобы было понятно, что она делает
             for j in availableStudents {
                 if i == j {
                     flag = true
@@ -27,6 +32,8 @@ public class Teacher {
             }
         }
     }
+    
+    // Эту логику реализуешь потом - можешь удалять
     public func howStudents() {
         print("\(availableStudents.count) is here")
         print("\(studentArray.count - availableStudents.count) is not here")
